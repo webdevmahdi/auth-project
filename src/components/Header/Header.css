@@ -1,0 +1,10 @@
+.div{
+    display: flex;
+}
+a{
+    margin-left: 40px;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
