@@ -1,5 +1,5 @@
-import React from 'react'
-import { useLoaderData } from 'react-router-dom'
+import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 import Friend from './Friend/Friend';
 
 const Friends = () => {

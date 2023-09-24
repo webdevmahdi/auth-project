@@ -1,9 +1,9 @@
-import React from 'react'
-import { useLoaderData, useNavigate } from 'react-router-dom'
+import React from 'react';
+import { useLoaderData, useNavigate } from 'react-router-dom';
 
 const FriendDetails = () => {
-    let friend = useLoaderData()
-    console.log(friend.id)
+    let friend = useLoaderData();
+    console.log(friend.id);
     let navigate = useNavigate();
     let goback = () =>{
         navigate(-1);
